@@ -1188,7 +1188,7 @@
                 <strong>Datos de Transferencia:</strong><br>
                 Davivienda Ahorros: Nro. 4884 - 5534 - 3936<br>
                 Bancolombia Ahorros: Nro. 454 - 612794 - 34<br>
-                Nequi: 3228026244<br><br>
+                Nequi: 3128411473<br><br>
                 *Envía el comprobante por WhatsApp al finalizar.
             </div>
 
@@ -1209,12 +1209,12 @@
     <section class="seccion-atencion">
         <h2>Atención al Cliente</h2>
         <div class="grid-atencion">
-            <a href="https://api.whatsapp.com/send?phone=573228026244&text=Hola,%20tengo%20una%20duda%20sobre%20el%20catálogo" target="_blank" class="tarjeta-atencion">
+            <a href="https://api.whatsapp.com/send?phone=573189882787&text=Hola,%20tengo%20una%20duda%20sobre%20el%20catálogo" target="_blank" class="tarjeta-atencion">
                 <span>💬</span>
                 <p>Chat de WhatsApp</p>
                 <small>Respuesta Inmediata</small>
             </a>
-            <a href="tel:+573228026244" class="tarjeta-atencion">
+            <a href="tel:+573189882787" class="tarjeta-atencion">
                 <span>📞</span>
                 <p>Línea Directa</p>
                 <small>Llamar Ahora</small>
@@ -1710,7 +1710,7 @@
             msg += `\n💰 *TOTAL NETO A PAGAR: $${dineroTotal.toLocaleString()}*\n\n`;
             msg += `⚡ _Pedido generado desde el Catálogo Virtual_`;
 
-            const urlWa = `https://api.whatsapp.com/send?phone=573228026244&text=${encodeURIComponent(msg)}`;
+            const urlWa = `https://api.whatsapp.com/send?phone=573189882787&text=${encodeURIComponent(msg)}`;
             window.open(urlWa, '_blank');
         }
 
