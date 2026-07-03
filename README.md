@@ -1190,16 +1190,20 @@
 
             <div id="info-banco" class="info-transferencia">
                 <strong>Paga de forma rápida y segura con Mercado Pago:</strong><br>
-                Puedes realizar tu pago ingresando al siguiente enlace oficial:<br>
+                Puedes realizar tu pago ingresando al siguiente enlace o preconando el boton de mercado pago oficial:<br>
                 <a href="https://link.mercadopago.com.co/sabanasdulcesuenos" target="_blank" style="color: var(--precio-verde); font-weight: bold; text-decoration: underline;">link.mercadopago.com.co/sabanasdulcesuenos</a><br><br>
                 *Adjunta el comprobante generado por la plataforma al enviar tu pedido por WhatsApp.
             </div>
+
+            <button class="btn-enviar-wa">
+              <a href="https://link.mercadopago.com.co/sabanasdulcesuenos" target="_blank" style="color: var(--precio-blanco); font-weight: bold; text-decoration: underline;">mercado pago </a>
+            </button>
 
             <button class="btn-enviar-wa" onclick="procesarCompra()">
                 Confirmar Pedido por WhatsApp
             </button>
         </div>
-    </div>
+    </div>      
 
     <div class="barra-carrito">
         <div class="carrito-info">
